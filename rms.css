@@ -1,0 +1,204 @@
+.button {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1180px;
+    top: 13px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.banner{
+    width: 100%;
+    height: 101vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+.video-info{
+    z-index: 2;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.video-info input{
+    border-radius: 100px;
+    margin-top: 10px;
+}
+/*tentang*/
+#tentang {
+    padding: 90px 0;
+    /* background-image: url(./gambar/background2.png); */
+    background-color: #000;
+
+}
+.about h3 h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+/*menu*/
+#menu {
+    background-color: #1f1f1f;
+    padding: 100px 0;
+}
+
+.lihatmenu{
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.card {
+    border-radius: 5px;
+    border: none;
+}
+
+.card-fitur h5 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.card-fitur .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+
+/*Testimoni*/
+#testimoni {
+    background-color: #2C3333;
+    padding: 100px 0;
+    padding-bottom: 250px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+
+.card-testi {
+    width: 100%;
+    height: 413px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+.card-testi h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-testi p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .3s ease-in;
+}
+
+.card-testi:hover {
+    width: 100%;
+    height: 413px;
+    border-radius: 5px;
+    background: #1f1f1f;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+    transition: all .2s ease-in;
+}
+
+
+/* .card-testi:hover .circle-icon {
+    background-color: #fff;
+    transition: all .1s ease-in;
+} */
+
+
+.card-testi:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all .1s ease-in;
+}
+
+.card-testi:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all .1s ease-in;
+}
+
+/*Kontak*/
+
+#kontak {
+    background-color: #2C3333;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kontak .overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#kontak .container {
+    padding: 148px 0 148px 0;
+}
+
+#kontak h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 440px;
+}
+
+#kontak h5 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 19px 0 4px 10px;
+}
+
+#kontak .kontak a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #000;
+}
